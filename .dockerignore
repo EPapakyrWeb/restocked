@@ -1,7 +1,7 @@
-   .git
-   data
-   node_modules
-   test
-   *.md
-   !README.md
-   .env*
+.git
+data
+node_modules
+test
+*.md
+!README.md
+.env*
