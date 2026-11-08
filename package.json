@@ -1,0 +1,14 @@
+{
+  "name": "restocked",
+  "version": "1.0.0",
+  "description": "Back-in-stock email alerts: embeddable form, webhook-driven, exactly-once delivery. Zero dependencies.",
+  "author": "EPMnemon",
+  "license": "MIT",
+  "private": true,
+  "main": "src/server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning test/e2e.js"
+  }
+}
